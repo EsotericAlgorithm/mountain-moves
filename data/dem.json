@@ -1,2594 +1,326 @@
 [
   {
-    "description": "./raw/msh615_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh615_83.e00"
-    ],
-    "size": [
-      756,
-      716
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "1_msh00_83",
+    "date": "2000_09_25",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.207030,
+      "East_Bounding_Coordinate": -122.167170,
+      "North_Bounding_Coordinate": 46.226098,
+      "South_Bounding_Coordinate": 46.186042
     },
-    "geoTransform": [
-      561739,
-      2,
-      0,
-      5117061,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561739,
-        5117061
-      ],
-      "lowerLeft": [
-        561739,
-        5115629
-      ],
-      "lowerRight": [
-        563251,
-        5115629
-      ],
-      "upperRight": [
-        563251,
-        5117061
-      ],
-      "center": [
-        562495,
-        5116345
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.199717,
-            46.2043198
-          ],
-          [
-            -122.199904,
-            46.1914331
-          ],
-          [
-            -122.1803116,
-            46.1912943
-          ],
-          [
-            -122.18012,
-            46.204181
-          ],
-          [
-            -122.199717,
-            46.2043198
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          756,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1855.051,
-        "max": 2334.599,
-        "minimum": 1855.051,
-        "maximum": 2334.599,
-        "mean": 2144.687,
-        "stdDev": 86.764,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1361.796264648438,
+    "max_alt": 2538.09912109375
   },
   {
-    "description": "./raw/msh1129_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh1129_83.e00"
-    ],
-    "size": [
-      736,
-      466
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "2_msh104_83",
+    "date": "2004_10_04",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.191955,
+      "East_Bounding_Coordinate": -122.184085,
+      "North_Bounding_Coordinate": 46.199229,
+      "South_Bounding_Coordinate": 46.194567
     },
-    "geoTransform": [
-      561839,
-      2,
-      0,
-      5116561,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561839,
-        5116561
-      ],
-      "lowerLeft": [
-        561839,
-        5115629
-      ],
-      "lowerRight": [
-        563311,
-        5115629
-      ],
-      "upperRight": [
-        563311,
-        5116561
-      ],
-      "center": [
-        562575,
-        5116095
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1984863,
-            46.1998112
-          ],
-          [
-            -122.1986082,
-            46.191424
-          ],
-          [
-            -122.1795341,
-            46.1912887
-          ],
-          [
-            -122.1794093,
-            46.1996759
-          ],
-          [
-            -122.1984863,
-            46.1998112
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          736,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 2045.689,
-        "max": 2328.015,
-        "minimum": 2045.689,
-        "maximum": 2328.015,
-        "mean": 2154.075,
-        "stdDev": 54.883,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 2041.953002929688,
+    "max_alt": 2170.23486328125
   },
   {
-    "description": "./raw/msh530_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh530_83.e00"
-    ],
-    "size": [
-      781,
-      996
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "3_msh1011_83",
+    "date": "2004_10_11",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.192703,
+      "East_Bounding_Coordinate": -122.183438,
+      "North_Bounding_Coordinate": 46.199163,
+      "South_Bounding_Coordinate": 46.193032
     },
-    "geoTransform": [
-      561699,
-      2,
-      0,
-      5117631,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561699,
-        5117631
-      ],
-      "lowerLeft": [
-        561699,
-        5115639
-      ],
-      "lowerRight": [
-        563261,
-        5115639
-      ],
-      "upperRight": [
-        563261,
-        5117631
-      ],
-      "center": [
-        562480,
-        5116635
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.200161,
-            46.2094529
-          ],
-          [
-            -122.2004211,
-            46.1915267
-          ],
-          [
-            -122.1801807,
-            46.1913834
-          ],
-          [
-            -122.1799141,
-            46.2093095
-          ],
-          [
-            -122.200161,
-            46.2094529
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          781,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1747.199,
-        "max": 2347.607,
-        "minimum": 1747.199,
-        "maximum": 2347.607,
-        "mean": 2067.431,
-        "stdDev": 153.172,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 2044.898193359375,
+    "max_alt": 2193.83813476562
   },
   {
-    "description": "./raw/msh221_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh221_83.e00"
-    ],
-    "size": [
-      691,
-      641
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "4_msh1013_83",
+    "date": "2004_10_13",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.194458,
+      "East_Bounding_Coordinate": -122.180574,
+      "North_Bounding_Coordinate": 46.200057,
+      "South_Bounding_Coordinate": 46.191752
     },
-    "geoTransform": [
-      561899,
-      2,
-      0,
-      5116861,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561899,
-        5116861
-      ],
-      "lowerLeft": [
-        561899,
-        5115579
-      ],
-      "lowerRight": [
-        563281,
-        5115579
-      ],
-      "upperRight": [
-        563281,
-        5116861
-      ],
-      "center": [
-        562590,
-        5116220
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1976695,
-            46.2025055
-          ],
-          [
-            -122.1978373,
-            46.1909686
-          ],
-          [
-            -122.1799296,
-            46.1908416
-          ],
-          [
-            -122.179758,
-            46.2023784
-          ],
-          [
-            -122.1976695,
-            46.2025055
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          691,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1942.026,
-        "max": 2382.571,
-        "minimum": 1942.026,
-        "maximum": 2382.571,
-        "mean": 2163.693,
-        "stdDev": 73.614,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 2038.02197265625,
+    "max_alt": 2236.35815429685
   },
   {
-    "description": "./raw/msh418_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh418_83.e00"
-    ],
-    "size": [
-      731,
-      991
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "5_msh1104_83",
+    "date": "2004_11_04",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.197962,
+      "East_Bounding_Coordinate": -122.179793,
+      "North_Bounding_Coordinate": 46.200351,
+      "South_Bounding_Coordinate": 46.191386
     },
-    "geoTransform": [
-      561779,
-      2,
-      0,
-      5117641,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561779,
-        5117641
-      ],
-      "lowerLeft": [
-        561779,
-        5115659
-      ],
-      "lowerRight": [
-        563241,
-        5115659
-      ],
-      "upperRight": [
-        563241,
-        5117641
-      ],
-      "center": [
-        562510,
-        5116650
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1991227,
-            46.2095357
-          ],
-          [
-            -122.1993818,
-            46.1916995
-          ],
-          [
-            -122.1804372,
-            46.1915652
-          ],
-          [
-            -122.180172,
-            46.2094014
-          ],
-          [
-            -122.1991227,
-            46.2095357
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          731,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1762.64,
-        "max": 2335.882,
-        "minimum": 1762.64,
-        "maximum": 2335.882,
-        "mean": 2102.775,
-        "stdDev": 138.009,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 2040.211669921875,
+    "max_alt": 2274.86206054687
   },
   {
-    "description": "./raw/msh00_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh00_83.e00"
-    ],
-    "size": [
-      303,
-      442
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "6_msh1129_83",
+    "date": "2004_11_29",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.198611,
+      "East_Bounding_Coordinate": -122.179412,
+      "North_Bounding_Coordinate": 46.199816,
+      "South_Bounding_Coordinate": 46.191293
     },
-    "geoTransform": [
-      561194.99850089,
-      10,
-      0,
-      5119474.9888518,
-      0,
-      -10
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561194.999,
-        5119474.989
-      ],
-      "lowerLeft": [
-        561194.999,
-        5115054.989
-      ],
-      "lowerRight": [
-        564224.999,
-        5115054.989
-      ],
-      "upperRight": [
-        564224.999,
-        5119474.989
-      ],
-      "center": [
-        562709.999,
-        5117264.989
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.2064551,
-            46.2260927
-          ],
-          [
-            -122.2070275,
-            46.1863166
-          ],
-          [
-            -122.1677686,
-            46.1860376
-          ],
-          [
-            -122.1671679,
-            46.2258133
-          ],
-          [
-            -122.2064551,
-            46.2260927
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          303,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1361.796,
-        "max": 2538.099,
-        "minimum": 1361.796,
-        "maximum": 2538.099,
-        "mean": 1956.173,
-        "stdDev": 301.127,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 2045.689453125,
+    "max_alt": 2328.0151367175
   },
   {
-    "description": "./raw/msh1104_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh1104_83.e00"
-    ],
-    "size": [
-      696,
-      491
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "7_msh1211_83",
+    "date": "2004_12_11",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.197184,
+      "East_Bounding_Coordinate": -122.180576,
+      "North_Bounding_Coordinate": 46.199986,
+      "South_Bounding_Coordinate": 46.191392
     },
-    "geoTransform": [
-      561889,
-      2,
-      0,
-      5116621,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561889,
-        5116621
-      ],
-      "lowerLeft": [
-        561889,
-        5115639
-      ],
-      "lowerRight": [
-        563281,
-        5115639
-      ],
-      "upperRight": [
-        563281,
-        5116621
-      ],
-      "center": [
-        562585,
-        5116130
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1978305,
-            46.2003466
-          ],
-          [
-            -122.197959,
-            46.1915095
-          ],
-          [
-            -122.1799215,
-            46.1913815
-          ],
-          [
-            -122.1797901,
-            46.2002186
-          ],
-          [
-            -122.1978305,
-            46.2003466
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          696,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 2040.212,
-        "max": 2274.862,
-        "minimum": 2040.212,
-        "maximum": 2274.862,
-        "mean": 2141.737,
-        "stdDev": 48.201,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 2043.270629882813,
+    "max_alt": 2282.61352539062
   },
   {
-    "description": "./raw/msh810_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh810_83.e00"
-    ],
-    "size": [
-      766,
-      981
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "8_msh13_83",
+    "date": "2005_01_03",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.197314,
+      "East_Bounding_Coordinate": -122.180447,
+      "North_Bounding_Coordinate": 46.199897,
+      "South_Bounding_Coordinate": 46.191391
     },
-    "geoTransform": [
-      561739,
-      2,
-      0,
-      5117611,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561739,
-        5117611
-      ],
-      "lowerLeft": [
-        561739,
-        5115649
-      ],
-      "lowerRight": [
-        563271,
-        5115649
-      ],
-      "upperRight": [
-        563271,
-        5117611
-      ],
-      "center": [
-        562505,
-        5116630
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1996452,
-            46.2092693
-          ],
-          [
-            -122.1999014,
-            46.1916131
-          ],
-          [
-            -122.1800498,
-            46.1914724
-          ],
-          [
-            -122.1797872,
-            46.2091286
-          ],
-          [
-            -122.1996452,
-            46.2092693
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          766,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1752.289,
-        "max": 2346.006,
-        "minimum": 1752.289,
-        "maximum": 2346.006,
-        "mean": 2087.047,
-        "stdDev": 139.787,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 2051.250244140625,
+    "max_alt": 2293.35302734375
   },
   {
-    "description": "./raw/msh1215_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh1215_83.e00"
-    ],
-    "size": [
-      751,
-      986
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "9_msh0201_83",
+    "date": "2005_02_01",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.198350,
+      "East_Bounding_Coordinate": -122.179261,
+      "North_Bounding_Coordinate": 46.201254,
+      "South_Bounding_Coordinate": 46.191383
     },
-    "geoTransform": [
-      561749,
-      2,
-      0,
-      5117621,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561749,
-        5117621
-      ],
-      "lowerLeft": [
-        561749,
-        5115649
-      ],
-      "lowerRight": [
-        563251,
-        5115649
-      ],
-      "upperRight": [
-        563251,
-        5117621
-      ],
-      "center": [
-        562500,
-        5116635
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1995142,
-            46.2093584
-          ],
-          [
-            -122.1997718,
-            46.1916122
-          ],
-          [
-            -122.1803089,
-            46.1914743
-          ],
-          [
-            -122.1800451,
-            46.2092205
-          ],
-          [
-            -122.1995142,
-            46.2093584
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          751,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1756.221,
-        "max": 2315.93,
-        "minimum": 1756.221,
-        "maximum": 2315.93,
-        "mean": 2096.53,
-        "stdDev": 137.746,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 2017.944946289063,
+    "max_alt": 2330.93603515625
   },
   {
-    "description": "./raw/msh420_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh420_83.e00"
-    ],
-    "size": [
-      786,
-      1026
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "10_msh221_83",
+    "date": "2005_02_21",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.197840,
+      "East_Bounding_Coordinate": -122.179760,
+      "North_Bounding_Coordinate": 46.202510,
+      "South_Bounding_Coordinate": 46.190846
     },
-    "geoTransform": [
-      561689,
-      2,
-      0,
-      5117681,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561689,
-        5117681
-      ],
-      "lowerLeft": [
-        561689,
-        5115629
-      ],
-      "lowerRight": [
-        563261,
-        5115629
-      ],
-      "upperRight": [
-        563261,
-        5117681
-      ],
-      "center": [
-        562475,
-        5116655
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.2002841,
-            46.2099038
-          ],
-          [
-            -122.2005519,
-            46.1914376
-          ],
-          [
-            -122.180182,
-            46.1912934
-          ],
-          [
-            -122.1799074,
-            46.2097595
-          ],
-          [
-            -122.2002841,
-            46.2099038
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          786,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1747.16,
-        "max": 2307.087,
-        "minimum": 1747.16,
-        "maximum": 2307.087,
-        "mean": 2067.536,
-        "stdDev": 155.18,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1942.025634765625,
+    "max_alt": 2382.57104492187
   },
   {
-    "description": "./raw/msh1024_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh1024_83.e00"
-    ],
-    "size": [
-      691,
-      996
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "11_msh310_83",
+    "date": "2005_03_10",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199776,
+      "East_Bounding_Coordinate": -122.179468,
+      "North_Bounding_Coordinate": 46.204774,
+      "South_Bounding_Coordinate": 46.191384
     },
-    "geoTransform": [
-      561859,
-      2,
-      0,
-      5117631,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561859,
-        5117631
-      ],
-      "lowerLeft": [
-        561859,
-        5115639
-      ],
-      "lowerRight": [
-        563241,
-        5115639
-      ],
-      "upperRight": [
-        563241,
-        5117631
-      ],
-      "center": [
-        562550,
-        5116635
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1980871,
-            46.2094384
-          ],
-          [
-            -122.1983478,
-            46.1915122
-          ],
-          [
-            -122.1804399,
-            46.1913852
-          ],
-          [
-            -122.1801734,
-            46.2093114
-          ],
-          [
-            -122.1980871,
-            46.2094384
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          691,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1750.517,
-        "max": 2318.581,
-        "minimum": 1750.517,
-        "maximum": 2318.581,
-        "mean": 2090.027,
-        "stdDev": 141.233,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1845.2958984375,
+    "max_alt": 2341.6694335935
   },
   {
-    "description": "./raw/msh419_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh419_83.e00"
-    ],
-    "size": [
-      781,
-      776
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "12_msh419_83",
+    "date": "2005_04_19",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200170,
+      "East_Bounding_Coordinate": -122.179722,
+      "North_Bounding_Coordinate": 46.205136,
+      "South_Bounding_Coordinate": 46.191026
     },
-    "geoTransform": [
-      561719,
-      2,
-      0,
-      5117151,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561719,
-        5117151
-      ],
-      "lowerLeft": [
-        561719,
-        5115599
-      ],
-      "lowerRight": [
-        563281,
-        5115599
-      ],
-      "upperRight": [
-        563281,
-        5117151
-      ],
-      "center": [
-        562500,
-        5116375
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1999645,
-            46.2051316
-          ],
-          [
-            -122.2001671,
-            46.1911649
-          ],
-          [
-            -122.1799269,
-            46.1910216
-          ],
-          [
-            -122.1797191,
-            46.2049881
-          ],
-          [
-            -122.1999645,
-            46.2051316
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          781,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1853.654,
-        "max": 2337.607,
-        "minimum": 1853.654,
-        "maximum": 2337.607,
-        "mean": 2132.786,
-        "stdDev": 95.855,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1853.653686523438,
+    "max_alt": 2337.607421875
   },
   {
-    "description": "./raw/msh920_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh920_83.e00"
-    ],
-    "size": [
-      736,
-      946
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "13_msh615_8",
+    "date": "2005_06_15",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199907,
+      "East_Bounding_Coordinate": -122.180122,
+      "North_Bounding_Coordinate": 46.204325,
+      "South_Bounding_Coordinate": 46.191299
     },
-    "geoTransform": [
-      561759,
-      2,
-      0,
-      5117581,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561759,
-        5117581
-      ],
-      "lowerLeft": [
-        561759,
-        5115689
-      ],
-      "lowerRight": [
-        563231,
-        5115689
-      ],
-      "upperRight": [
-        563231,
-        5117581
-      ],
-      "center": [
-        562495,
-        5116635
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1993898,
-            46.2089976
-          ],
-          [
-            -122.199637,
-            46.1919712
-          ],
-          [
-            -122.1805628,
-            46.1918361
-          ],
-          [
-            -122.1803097,
-            46.2088624
-          ],
-          [
-            -122.1993898,
-            46.2089976
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          736,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1754.136,
-        "max": 2319.58,
-        "minimum": 1754.136,
-        "maximum": 2319.58,
-        "mean": 2086.967,
-        "stdDev": 137.5,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1855.05126953125,
+    "max_alt": 2334.59887695315
   },
   {
-    "description": "./raw/msh1013_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh1013_83.e00"
-    ],
-    "size": [
-      531,
-      456
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "14_msh714_83",
+    "date": "2005_07_14",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200037,
+      "East_Bounding_Coordinate": -122.179601,
+      "North_Bounding_Coordinate": 46.204506,
+      "South_Bounding_Coordinate": 46.191205
     },
-    "geoTransform": [
-      562159,
-      2,
-      0,
-      5116591,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        562159,
-        5116591
-      ],
-      "lowerLeft": [
-        562159,
-        5115679
-      ],
-      "lowerRight": [
-        563221,
-        5115679
-      ],
-      "upperRight": [
-        563221,
-        5116591
-      ],
-      "center": [
-        562690,
-        5116135
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1943352,
-            46.200052
-          ],
-          [
-            -122.1944551,
-            46.1918448
-          ],
-          [
-            -122.1806937,
-            46.1917471
-          ],
-          [
-            -122.1805717,
-            46.1999542
-          ],
-          [
-            -122.1943352,
-            46.200052
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          531,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 2038.022,
-        "max": 2236.358,
-        "minimum": 2038.022,
-        "maximum": 2236.358,
-        "mean": 2124.562,
-        "stdDev": 39.322,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1850.72265625,
+    "max_alt": 2367.668945325
   },
   {
-    "description": "./raw/msh310_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh310_83.e00"
-    ],
-    "size": [
-      776,
-      736
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "15_msh810_83",
+    "date": "2005_08_10",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199904,
+      "East_Bounding_Coordinate": -122.179790,
+      "North_Bounding_Coordinate": 46.209274,
+      "South_Bounding_Coordinate": 46.191477
     },
-    "geoTransform": [
-      561749,
-      2,
-      0,
-      5117111,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561749,
-        5117111
-      ],
-      "lowerLeft": [
-        561749,
-        5115639
-      ],
-      "lowerRight": [
-        563301,
-        5115639
-      ],
-      "upperRight": [
-        563301,
-        5117111
-      ],
-      "center": [
-        562525,
-        5116375
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1995809,
-            46.2047689
-          ],
-          [
-            -122.1997731,
-            46.1915222
-          ],
-          [
-            -122.1796624,
-            46.1913797
-          ],
-          [
-            -122.1794653,
-            46.2046263
-          ],
-          [
-            -122.1995809,
-            46.2047689
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          776,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1845.296,
-        "max": 2341.669,
-        "minimum": 1845.296,
-        "maximum": 2341.669,
-        "mean": 2140.373,
-        "stdDev": 80.783,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1752.289428710938,
+    "max_alt": 2346.00634765625
   },
   {
-    "description": "./raw/msh209_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh209_83.e00"
-    ],
-    "size": [
-      756,
-      986
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "16_msh91_83",
+    "date": "2005_09_01",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200035,
+      "East_Bounding_Coordinate": -122.179918,
+      "North_Bounding_Coordinate": 46.209365,
+      "South_Bounding_Coordinate": 46.191388
     },
-    "geoTransform": [
-      561749,
-      2,
-      0,
-      5117621,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561749,
-        5117621
-      ],
-      "lowerLeft": [
-        561749,
-        5115649
-      ],
-      "lowerRight": [
-        563261,
-        5115649
-      ],
-      "upperRight": [
-        563261,
-        5117621
-      ],
-      "center": [
-        562505,
-        5116635
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1995142,
-            46.2093584
-          ],
-          [
-            -122.1997718,
-            46.1916122
-          ],
-          [
-            -122.1801794,
-            46.1914734
-          ],
-          [
-            -122.1799154,
-            46.2092195
-          ],
-          [
-            -122.1995142,
-            46.2093584
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          756,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1757.21,
-        "max": 2313.144,
-        "minimum": 1757.21,
-        "maximum": 2313.144,
-        "mean": 2104.237,
-        "stdDev": 135.732,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1750.270385742188,
+    "max_alt": 2321.01538085937
   },
   {
-    "description": "./raw/msh1011_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh1011_83.e00"
-    ],
-    "size": [
-      354,
-      337
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "17_msh920_83",
+    "date": "2005_09_20",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199640,
+      "East_Bounding_Coordinate": -122.180312,
+      "North_Bounding_Coordinate": 46.209002,
+      "South_Bounding_Coordinate": 46.191841
     },
-    "geoTransform": [
-      562292.99715909,
-      2,
-      0,
-      5116492.9971591,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        562292.997,
-        5116492.997
-      ],
-      "lowerLeft": [
-        562292.997,
-        5115818.997
-      ],
-      "lowerRight": [
-        563000.997,
-        5115818.997
-      ],
-      "upperRight": [
-        563000.997,
-        5116492.997
-      ],
-      "center": [
-        562646.997,
-        5116155.997
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1926115,
-            46.1991578
-          ],
-          [
-            -122.1927003,
-            46.1930924
-          ],
-          [
-            -122.1835258,
-            46.1930273
-          ],
-          [
-            -122.183436,
-            46.1990927
-          ],
-          [
-            -122.1926115,
-            46.1991578
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          354,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 2044.898,
-        "max": 2193.838,
-        "minimum": 2044.898,
-        "maximum": 2193.838,
-        "mean": 2124.652,
-        "stdDev": 33.964,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1754.135620117188,
+    "max_alt": 2319.58032226562
   },
   {
-    "description": "./raw/msh0201_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh0201_83.e00"
-    ],
-    "size": [
-      731,
-      541
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "18_msh1024_83",
+    "date": "2005_10_24",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.198350,
+      "East_Bounding_Coordinate": -122.180176,
+      "North_Bounding_Coordinate": 46.209443,
+      "South_Bounding_Coordinate": 46.191390
     },
-    "geoTransform": [
-      561859,
-      2,
-      0,
-      5116721,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561859,
-        5116721
-      ],
-      "lowerLeft": [
-        561859,
-        5115639
-      ],
-      "lowerRight": [
-        563321,
-        5115639
-      ],
-      "upperRight": [
-        563321,
-        5116721
-      ],
-      "center": [
-        562590,
-        5116180
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1982062,
-            46.2012492
-          ],
-          [
-            -122.1983478,
-            46.1915122
-          ],
-          [
-            -122.1794032,
-            46.1913778
-          ],
-          [
-            -122.1792583,
-            46.2011148
-          ],
-          [
-            -122.1982062,
-            46.2012492
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          731,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 2017.945,
-        "max": 2330.936,
-        "minimum": 2017.945,
-        "maximum": 2330.936,
-        "mean": 2161.628,
-        "stdDev": 61.519,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1750.517211914063,
+    "max_alt": 2318.58081054687
   },
   {
-    "description": "./raw/msh818_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh818_83.e00"
-    ],
-    "size": [
-      781,
-      996
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "19_msh1215_83",
+    "date": "2005_12_15",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199774,
+      "East_Bounding_Coordinate": -122.180047,
+      "North_Bounding_Coordinate": 46.209363,
+      "South_Bounding_Coordinate": 46.191479
     },
-    "geoTransform": [
-      561699,
-      2,
-      0,
-      5117631,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561699,
-        5117631
-      ],
-      "lowerLeft": [
-        561699,
-        5115639
-      ],
-      "lowerRight": [
-        563261,
-        5115639
-      ],
-      "upperRight": [
-        563261,
-        5117631
-      ],
-      "center": [
-        562480,
-        5116635
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.200161,
-            46.2094529
-          ],
-          [
-            -122.2004211,
-            46.1915267
-          ],
-          [
-            -122.1801807,
-            46.1913834
-          ],
-          [
-            -122.1799141,
-            46.2093095
-          ],
-          [
-            -122.200161,
-            46.2094529
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          781,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1746.668,
-        "max": 2368.73,
-        "minimum": 1746.668,
-        "maximum": 2368.73,
-        "mean": 2064.206,
-        "stdDev": 153.291,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1756.220825195313,
+    "max_alt": 2315.92993164062
   },
   {
-    "description": "./raw/msh705_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh705_83.e00"
-    ],
-    "size": [
-      786,
-      1026
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "20_msh209_83",
+    "date": "2006_02_09",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199774,
+      "East_Bounding_Coordinate": -122.179918,
+      "North_Bounding_Coordinate": 46.209363,
+      "South_Bounding_Coordinate": 46.191478
     },
-    "geoTransform": [
-      561689,
-      2,
-      0,
-      5117681,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561689,
-        5117681
-      ],
-      "lowerLeft": [
-        561689,
-        5115629
-      ],
-      "lowerRight": [
-        563261,
-        5115629
-      ],
-      "upperRight": [
-        563261,
-        5117681
-      ],
-      "center": [
-        562475,
-        5116655
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.2002841,
-            46.2099038
-          ],
-          [
-            -122.2005519,
-            46.1914376
-          ],
-          [
-            -122.180182,
-            46.1912934
-          ],
-          [
-            -122.1799074,
-            46.2097595
-          ],
-          [
-            -122.2002841,
-            46.2099038
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          786,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1741.11,
-        "max": 2311.565,
-        "minimum": 1741.11,
-        "maximum": 2311.565,
-        "mean": 2064.133,
-        "stdDev": 154.827,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1757.210205078125,
+    "max_alt": 2313.14428710937
   },
   {
-    "description": "./raw/msh1021_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh1021_83.e00"
-    ],
-    "size": [
-      781,
-      996
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "21_msh418_83",
+    "date": "2006_04_18",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199384,
+      "East_Bounding_Coordinate": -122.180174,
+      "North_Bounding_Coordinate": 46.209540,
+      "South_Bounding_Coordinate": 46.191570
     },
-    "geoTransform": [
-      561699,
-      2,
-      0,
-      5117631,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561699,
-        5117631
-      ],
-      "lowerLeft": [
-        561699,
-        5115639
-      ],
-      "lowerRight": [
-        563261,
-        5115639
-      ],
-      "upperRight": [
-        563261,
-        5117631
-      ],
-      "center": [
-        562480,
-        5116635
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.200161,
-            46.2094529
-          ],
-          [
-            -122.2004211,
-            46.1915267
-          ],
-          [
-            -122.1801807,
-            46.1913834
-          ],
-          [
-            -122.1799141,
-            46.2093095
-          ],
-          [
-            -122.200161,
-            46.2094529
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          781,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1746.501,
-        "max": 2349.785,
-        "minimum": 1746.501,
-        "maximum": 2349.785,
-        "mean": 2063.729,
-        "stdDev": 152.723,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1757.210205078125,
+    "max_alt": 2313.14428710937
   },
   {
-    "description": "./raw/msh714_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh714_83.e00"
-    ],
-    "size": [
-      781,
-      731
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "22_msh530_83",
+    "date": "2006_05_30",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200424,
+      "East_Bounding_Coordinate": -122.179917,
+      "North_Bounding_Coordinate": 46.209458,
+      "South_Bounding_Coordinate": 46.191388
     },
-    "geoTransform": [
-      561729,
-      2,
-      0,
-      5117081,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561729,
-        5117081
-      ],
-      "lowerLeft": [
-        561729,
-        5115619
-      ],
-      "lowerRight": [
-        563291,
-        5115619
-      ],
-      "upperRight": [
-        563291,
-        5117081
-      ],
-      "center": [
-        562510,
-        5116350
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.199844,
-            46.2045007
-          ],
-          [
-            -122.2000349,
-            46.191344
-          ],
-          [
-            -122.1797946,
-            46.1912006
-          ],
-          [
-            -122.1795989,
-            46.2043572
-          ],
-          [
-            -122.199844,
-            46.2045007
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          781,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1850.723,
-        "max": 2367.669,
-        "minimum": 1850.723,
-        "maximum": 2367.669,
-        "mean": 2142.935,
-        "stdDev": 88.342,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1747.198608398438,
+    "max_alt": 2347.60717773437
   },
   {
-    "description": "./raw/msh126_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh126_83.e00"
-    ],
-    "size": [
-      781,
-      996
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "23_msh818_83",
+    "date": "2006_08_18",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200424,
+      "East_Bounding_Coordinate": -122.179917,
+      "North_Bounding_Coordinate": 46.209458,
+      "South_Bounding_Coordinate": 46.191388
     },
-    "geoTransform": [
-      561699,
-      2,
-      0,
-      5117631,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561699,
-        5117631
-      ],
-      "lowerLeft": [
-        561699,
-        5115639
-      ],
-      "lowerRight": [
-        563261,
-        5115639
-      ],
-      "upperRight": [
-        563261,
-        5117631
-      ],
-      "center": [
-        562480,
-        5116635
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.200161,
-            46.2094529
-          ],
-          [
-            -122.2004211,
-            46.1915267
-          ],
-          [
-            -122.1801807,
-            46.1913834
-          ],
-          [
-            -122.1799141,
-            46.2093095
-          ],
-          [
-            -122.200161,
-            46.2094529
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          781,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1749.901,
-        "max": 2322.426,
-        "minimum": 1749.901,
-        "maximum": 2322.426,
-        "mean": 2067.87,
-        "stdDev": 152.485,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1746.66845703125,
+    "max_alt": 2368.73022460935
   },
   {
-    "description": "./raw/msh13_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh13_83.e00"
-    ],
-    "size": [
-      646,
-      466
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "24_msh1021_83",
+    "date": "2006_10_21",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200424,
+      "East_Bounding_Coordinate": -122.179917,
+      "North_Bounding_Coordinate": 46.209458,
+      "South_Bounding_Coordinate": 46.191388
     },
-    "geoTransform": [
-      561939,
-      2,
-      0,
-      5116571,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561939,
-        5116571
-      ],
-      "lowerLeft": [
-        561939,
-        5115639
-      ],
-      "lowerRight": [
-        563231,
-        5115639
-      ],
-      "upperRight": [
-        563231,
-        5116571
-      ],
-      "center": [
-        562585,
-        5116105
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.197189,
-            46.1998921
-          ],
-          [
-            -122.1973111,
-            46.1915049
-          ],
-          [
-            -122.1805694,
-            46.1913862
-          ],
-          [
-            -122.1804448,
-            46.1997733
-          ],
-          [
-            -122.197189,
-            46.1998921
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          646,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 2051.25,
-        "max": 2293.353,
-        "minimum": 2051.25,
-        "maximum": 2293.353,
-        "mean": 2163.829,
-        "stdDev": 55.845,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1746.500854492188,
+    "max_alt": 2349.78491210937
   },
   {
-    "description": "./raw/msh1211_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh1211_83.e00"
-    ],
-    "size": [
-      636,
-      471
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "25_msh126_83",
+    "date": "2006_12_06",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200424,
+      "East_Bounding_Coordinate": -122.179917,
+      "North_Bounding_Coordinate": 46.209458,
+      "South_Bounding_Coordinate": 46.191388
     },
-    "geoTransform": [
-      561949,
-      2,
-      0,
-      5116581,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561949,
-        5116581
-      ],
-      "lowerLeft": [
-        561949,
-        5115639
-      ],
-      "lowerRight": [
-        563221,
-        5115639
-      ],
-      "upperRight": [
-        563221,
-        5116581
-      ],
-      "center": [
-        562585,
-        5116110
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1970581,
-            46.1999812
-          ],
-          [
-            -122.1971815,
-            46.191504
-          ],
-          [
-            -122.180699,
-            46.1913871
-          ],
-          [
-            -122.1805731,
-            46.1998642
-          ],
-          [
-            -122.1970581,
-            46.1999812
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          636,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 2043.271,
-        "max": 2282.614,
-        "minimum": 2043.271,
-        "maximum": 2282.614,
-        "mean": 2156.008,
-        "stdDev": 55.556,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1749.901489257813,
+    "max_alt": 2322.42578125
   },
   {
-    "description": "./raw/msh91_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh91_83.e00"
-    ],
-    "size": [
-      766,
-      991
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "26_msh420_83",
+    "date": "2007_04_20",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200554,
+      "East_Bounding_Coordinate": -122.179910,
+      "North_Bounding_Coordinate": 46.209909,
+      "South_Bounding_Coordinate": 46.191298
     },
-    "geoTransform": [
-      561729,
-      2,
-      0,
-      5117621,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        561729,
-        5117621
-      ],
-      "lowerLeft": [
-        561729,
-        5115639
-      ],
-      "lowerRight": [
-        563261,
-        5115639
-      ],
-      "upperRight": [
-        563261,
-        5117621
-      ],
-      "center": [
-        562495,
-        5116630
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1997735,
-            46.2093602
-          ],
-          [
-            -122.2000323,
-            46.191524
-          ],
-          [
-            -122.1801807,
-            46.1913834
-          ],
-          [
-            -122.1799154,
-            46.2092195
-          ],
-          [
-            -122.1997735,
-            46.2093602
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          766,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 1750.27,
-        "max": 2321.015,
-        "minimum": 1750.27,
-        "maximum": 2321.015,
-        "mean": 2090.751,
-        "stdDev": 136.057,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1747.15966796875,
+    "max_alt": 2307.08715820315
   },
   {
-    "description": "./raw/msh104_83.e00",
-    "driverShortName": "E00GRID",
-    "driverLongName": "Arc/Info Export E00 GRID",
-    "files": [
-      "./raw/msh104_83.e00"
-    ],
-    "size": [
-      301,
-      256
-    ],
-    "coordinateSystem": {
-      "wkt": "PROJCRS[\"unnamed\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4269]],\n    CONVERSION[\"UTM zone 10N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-123,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"METERS\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16010]],\n    CS[Cartesian,2],\n        AXIS[\"easting\",east,\n            ORDER[1],\n            LENGTHUNIT[\"METERS\",1]],\n        AXIS[\"northing\",north,\n            ORDER[2],\n            LENGTHUNIT[\"METERS\",1]]]",
-      "dataAxisToSRSAxisMapping": [
-        1,
-        2
-      ]
+    "filename": "27_msh705_83",
+    "date": "2007_07_05",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200554,
+      "East_Bounding_Coordinate": -122.179910,
+      "North_Bounding_Coordinate": 46.209909,
+      "South_Bounding_Coordinate": 46.191298
     },
-    "geoTransform": [
-      562349,
-      2,
-      0,
-      5116501,
-      0,
-      -2
-    ],
-    "metadata": {},
-    "cornerCoordinates": {
-      "upperLeft": [
-        562349,
-        5116501
-      ],
-      "lowerLeft": [
-        562349,
-        5115989
-      ],
-      "lowerRight": [
-        562951,
-        5115989
-      ],
-      "upperRight": [
-        562951,
-        5116501
-      ],
-      "center": [
-        562650,
-        5116245
-      ]
-    },
-    "wgs84Extent": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            -122.1918847,
-            46.1992247
-          ],
-          [
-            -122.1919522,
-            46.1946172
-          ],
-          [
-            -122.1841511,
-            46.1945618
-          ],
-          [
-            -122.1840829,
-            46.1991693
-          ],
-          [
-            -122.1918847,
-            46.1992247
-          ]
-        ]
-      ]
-    },
-    "bands": [
-      {
-        "band": 1,
-        "block": [
-          301,
-          1
-        ],
-        "type": "Float32",
-        "colorInterpretation": "Undefined",
-        "min": 2041.953,
-        "max": 2170.235,
-        "minimum": 2041.953,
-        "maximum": 2170.235,
-        "mean": 2109.054,
-        "stdDev": 27.954,
-        "noDataValue": -3.4028234663852886e+38,
-        "metadata": {}
-      }
-    ]
+    "min_alt": 1741.110229492188,
+    "max_alt": 2311.5654296875
   }
 ]
