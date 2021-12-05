@@ -1,0 +1,326 @@
+{
+    "1.obj": {
+    "filename": "1_msh00_83",
+    "date": "2000_09_25",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.207030,
+      "East_Bounding_Coordinate": -122.167170,
+      "North_Bounding_Coordinate": 46.226098,
+      "South_Bounding_Coordinate": 46.186042
+    },
+    "min_alt": 1361.796264648438,
+    "max_alt": 2538.09912109375
+  },
+    "2.obj": {
+    "filename": "2_msh104_83",
+    "date": "2004_10_04",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.191955,
+      "East_Bounding_Coordinate": -122.184085,
+      "North_Bounding_Coordinate": 46.199229,
+      "South_Bounding_Coordinate": 46.194567
+    },
+    "min_alt": 2041.953002929688,
+    "max_alt": 2170.23486328125
+  },
+    "3.obj": {
+    "filename": "3_msh1011_83",
+    "date": "2004_10_11",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.192703,
+      "East_Bounding_Coordinate": -122.183438,
+      "North_Bounding_Coordinate": 46.199163,
+      "South_Bounding_Coordinate": 46.193032
+    },
+    "min_alt": 2044.898193359375,
+    "max_alt": 2193.83813476562
+  },
+    "4.obj": {
+    "filename": "4_msh1013_83",
+    "date": "2004_10_13",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.194458,
+      "East_Bounding_Coordinate": -122.180574,
+      "North_Bounding_Coordinate": 46.200057,
+      "South_Bounding_Coordinate": 46.191752
+    },
+    "min_alt": 2038.02197265625,
+    "max_alt": 2236.35815429685
+  },
+    "5.obj": {
+    "filename": "5_msh1104_83",
+    "date": "2004_11_04",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.197962,
+      "East_Bounding_Coordinate": -122.179793,
+      "North_Bounding_Coordinate": 46.200351,
+      "South_Bounding_Coordinate": 46.191386
+    },
+    "min_alt": 2040.211669921875,
+    "max_alt": 2274.86206054687
+  },
+    "6.obj": {
+    "filename": "6_msh1129_83",
+    "date": "2004_11_29",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.198611,
+      "East_Bounding_Coordinate": -122.179412,
+      "North_Bounding_Coordinate": 46.199816,
+      "South_Bounding_Coordinate": 46.191293
+    },
+    "min_alt": 2045.689453125,
+    "max_alt": 2328.0151367175
+  },
+    "7.obj": {
+    "filename": "7_msh1211_83",
+    "date": "2004_12_11",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.197184,
+      "East_Bounding_Coordinate": -122.180576,
+      "North_Bounding_Coordinate": 46.199986,
+      "South_Bounding_Coordinate": 46.191392
+    },
+    "min_alt": 2043.270629882813,
+    "max_alt": 2282.61352539062
+  },
+    "8.obj": {
+    "filename": "8_msh13_83",
+    "date": "2005_01_03",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.197314,
+      "East_Bounding_Coordinate": -122.180447,
+      "North_Bounding_Coordinate": 46.199897,
+      "South_Bounding_Coordinate": 46.191391
+    },
+    "min_alt": 2051.250244140625,
+    "max_alt": 2293.35302734375
+  },
+    "9.obj": {
+    "filename": "9_msh0201_83",
+    "date": "2005_02_01",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.198350,
+      "East_Bounding_Coordinate": -122.179261,
+      "North_Bounding_Coordinate": 46.201254,
+      "South_Bounding_Coordinate": 46.191383
+    },
+    "min_alt": 2017.944946289063,
+    "max_alt": 2330.93603515625
+  },
+    "10.obj": {
+    "filename": "10_msh221_83",
+    "date": "2005_02_21",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.197840,
+      "East_Bounding_Coordinate": -122.179760,
+      "North_Bounding_Coordinate": 46.202510,
+      "South_Bounding_Coordinate": 46.190846
+    },
+    "min_alt": 1942.025634765625,
+    "max_alt": 2382.57104492187
+  },
+    "11.obj": {
+    "filename": "11_msh310_83",
+    "date": "2005_03_10",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199776,
+      "East_Bounding_Coordinate": -122.179468,
+      "North_Bounding_Coordinate": 46.204774,
+      "South_Bounding_Coordinate": 46.191384
+    },
+    "min_alt": 1845.2958984375,
+    "max_alt": 2341.6694335935
+  },
+    "12.obj": {
+    "filename": "12_msh419_83",
+    "date": "2005_04_19",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200170,
+      "East_Bounding_Coordinate": -122.179722,
+      "North_Bounding_Coordinate": 46.205136,
+      "South_Bounding_Coordinate": 46.191026
+    },
+    "min_alt": 1853.653686523438,
+    "max_alt": 2337.607421875
+  },
+    "13.obj": {
+    "filename": "13_msh615_8",
+    "date": "2005_06_15",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199907,
+      "East_Bounding_Coordinate": -122.180122,
+      "North_Bounding_Coordinate": 46.204325,
+      "South_Bounding_Coordinate": 46.191299
+    },
+    "min_alt": 1855.05126953125,
+    "max_alt": 2334.59887695315
+  },
+    "14.obj": {
+    "filename": "14_msh714_83",
+    "date": "2005_07_14",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200037,
+      "East_Bounding_Coordinate": -122.179601,
+      "North_Bounding_Coordinate": 46.204506,
+      "South_Bounding_Coordinate": 46.191205
+    },
+    "min_alt": 1850.72265625,
+    "max_alt": 2367.668945325
+  },
+    "15.obj": {
+    "filename": "15_msh810_83",
+    "date": "2005_08_10",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199904,
+      "East_Bounding_Coordinate": -122.179790,
+      "North_Bounding_Coordinate": 46.209274,
+      "South_Bounding_Coordinate": 46.191477
+    },
+    "min_alt": 1752.289428710938,
+    "max_alt": 2346.00634765625
+  },
+    "16.obj": {
+    "filename": "16_msh91_83",
+    "date": "2005_09_01",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200035,
+      "East_Bounding_Coordinate": -122.179918,
+      "North_Bounding_Coordinate": 46.209365,
+      "South_Bounding_Coordinate": 46.191388
+    },
+    "min_alt": 1750.270385742188,
+    "max_alt": 2321.01538085937
+  },
+    "17.obj": {
+    "filename": "17_msh920_83",
+    "date": "2005_09_20",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199640,
+      "East_Bounding_Coordinate": -122.180312,
+      "North_Bounding_Coordinate": 46.209002,
+      "South_Bounding_Coordinate": 46.191841
+    },
+    "min_alt": 1754.135620117188,
+    "max_alt": 2319.58032226562
+  },
+    "18.obj": {
+    "filename": "18_msh1024_83",
+    "date": "2005_10_24",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.198350,
+      "East_Bounding_Coordinate": -122.180176,
+      "North_Bounding_Coordinate": 46.209443,
+      "South_Bounding_Coordinate": 46.191390
+    },
+    "min_alt": 1750.517211914063,
+    "max_alt": 2318.58081054687
+  },
+    "19.obj": {
+    "filename": "19_msh1215_83",
+    "date": "2005_12_15",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199774,
+      "East_Bounding_Coordinate": -122.180047,
+      "North_Bounding_Coordinate": 46.209363,
+      "South_Bounding_Coordinate": 46.191479
+    },
+    "min_alt": 1756.220825195313,
+    "max_alt": 2315.92993164062
+  },
+    "20.obj": {
+    "filename": "20_msh209_83",
+    "date": "2006_02_09",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199774,
+      "East_Bounding_Coordinate": -122.179918,
+      "North_Bounding_Coordinate": 46.209363,
+      "South_Bounding_Coordinate": 46.191478
+    },
+    "min_alt": 1757.210205078125,
+    "max_alt": 2313.14428710937
+  },
+    "21.obj": {
+    "filename": "21_msh418_83",
+    "date": "2006_04_18",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.199384,
+      "East_Bounding_Coordinate": -122.180174,
+      "North_Bounding_Coordinate": 46.209540,
+      "South_Bounding_Coordinate": 46.191570
+    },
+    "min_alt": 1757.210205078125,
+    "max_alt": 2313.14428710937
+  },
+    "22.obj": {
+    "filename": "22_msh530_83",
+    "date": "2006_05_30",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200424,
+      "East_Bounding_Coordinate": -122.179917,
+      "North_Bounding_Coordinate": 46.209458,
+      "South_Bounding_Coordinate": 46.191388
+    },
+    "min_alt": 1747.198608398438,
+    "max_alt": 2347.60717773437
+  },
+    "23.obj": {
+    "filename": "23_msh818_83",
+    "date": "2006_08_18",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200424,
+      "East_Bounding_Coordinate": -122.179917,
+      "North_Bounding_Coordinate": 46.209458,
+      "South_Bounding_Coordinate": 46.191388
+    },
+    "min_alt": 1746.66845703125,
+    "max_alt": 2368.73022460935
+  },
+    "24.obj": {
+    "filename": "24_msh1021_83",
+    "date": "2006_10_21",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200424,
+      "East_Bounding_Coordinate": -122.179917,
+      "North_Bounding_Coordinate": 46.209458,
+      "South_Bounding_Coordinate": 46.191388
+    },
+    "min_alt": 1746.500854492188,
+    "max_alt": 2349.78491210937
+  },
+    "25.obj": {
+    "filename": "25_msh126_83",
+    "date": "2006_12_06",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200424,
+      "East_Bounding_Coordinate": -122.179917,
+      "North_Bounding_Coordinate": 46.209458,
+      "South_Bounding_Coordinate": 46.191388
+    },
+    "min_alt": 1749.901489257813,
+    "max_alt": 2322.42578125
+  },
+    "26.obj": {
+    "filename": "26_msh420_83",
+    "date": "2007_04_20",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200554,
+      "East_Bounding_Coordinate": -122.179910,
+      "North_Bounding_Coordinate": 46.209909,
+      "South_Bounding_Coordinate": 46.191298
+    },
+    "min_alt": 1747.15966796875,
+    "max_alt": 2307.08715820315
+  },
+    "27.obj": {
+    "filename": "27_msh705_83",
+    "date": "2007_07_05",
+    "Bounding_Coordinates": {
+      "West_Bounding_Coordinate": -122.200554,
+      "East_Bounding_Coordinate": -122.179910,
+      "North_Bounding_Coordinate": 46.209909,
+      "South_Bounding_Coordinate": 46.191298
+    },
+    "min_alt": 1741.110229492188,
+    "max_alt": 2311.5654296875
+  }
+}
