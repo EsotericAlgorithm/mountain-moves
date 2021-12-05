@@ -29,10 +29,10 @@ class Frame:
         days_in_frame = (date - start_obj.date).days
         
         mesh_difference = end_mesh.points - start_mesh.points
-        frame_difference = mesh_difference/day_difference*days_in_frame
+        self.difference = mesh_difference/day_difference*days_in_frame
         
         self.mesh = start_mesh
-        self.mesh.points = self.mesh.points + frame_difference
+        self.mesh.points = self.mesh.points + self.difference
 
     def _debug_plot(self, plot_obj):
         plot_obj.add_mesh(self.mesh)
@@ -50,7 +50,7 @@ class Movie:
         self.output_file = output_file
         self._dataset = meshset
         self._ordered_obj_pairs = pairwise(self._dataset)
-        self._plot = pv.Plotter(window_size=[size_x, size_y])
+        self._plot = pv.Plotter(window_size=[size_x, size_y], line_smoothing=True)
         self._cpos = cpos
         self._frames_per_day = frames_per_day
 
@@ -71,7 +71,9 @@ class Movie:
         for (start_obj, end_obj) in self._ordered_obj_pairs:
             for day in daterange(start_obj.date, end_obj.date):
                 frame = Frame(start_obj, end_obj, day)
-                self._plot.add_mesh(frame.mesh)
+                self._plot.add_mesh(frame.mesh, 
+                                    show_scalar_bar=False,
+                                    cmap='terrain')
                 self._plot.add_text(f"{day.strftime('%-d %B %Y')}",
                                     name="time-label",
                                     shadow=True,
