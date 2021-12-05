@@ -3,6 +3,7 @@ import tempfile
 import json
 import os
 import datetime
+import argparse
 from itertools import tee
 
 class Frame:
@@ -39,13 +40,19 @@ class Frame:
        
         
 class Movie:
-    def __init__(self, meshset, size_x=1280, size_y=720, output_file="render.mp4"):
+    def __init__(self, meshset, size_x=1280,
+                 size_y=720,
+                 output_file="render.mp4",
+                 frames_per_day=3,
+                 cpos=(1, 1, 1)):
         self.size_x = size_x
         self.size_y = size_y
         self.output_file = output_file
         self._dataset = meshset
         self._ordered_obj_pairs = pairwise(self._dataset)
         self._plot = pv.Plotter(window_size=[size_x, size_y])
+        self._cpos = cpos
+        self._frames_per_day = frames_per_day
 
     def render(self):
         self._plot.open_movie(self.output_file)
@@ -53,16 +60,16 @@ class Movie:
         first, second = next(self._ordered_obj_pairs)
         frame = Frame(first, second, second.date)
         self._plot.add_mesh(frame.mesh)
-        self._plot.write_frame()
-        cpos = (13597563, 5812350, 5225)
-        self._plot.set_position(cpos)
+        self._plot.set_position(self._cpos)
+        self._plot.camera.focal_point = (-1.36022e+07, 5.81277e+06, 1553.45)
+        self._plot.camera.roll = -90
+
+
 
         
         # For each mesh keyframe...
         for (start_obj, end_obj) in self._ordered_obj_pairs:
             for day in daterange(start_obj.date, end_obj.date):
-
-                print(self._plot.camera.position)
                 frame = Frame(start_obj, end_obj, day)
                 self._plot.add_mesh(frame.mesh)
                 self._plot.add_text(f"{day.strftime('%-d %B %Y')}",
@@ -70,7 +77,8 @@ class Movie:
                                     shadow=True,
                                     viewport=True,
                                     position=(0.7, 0.1))
-                self._plot.write_frame()
+                for _ in range(self._frames_per_day):
+                    self._plot.write_frame()
         self._plot.close()
 
 class Obj:
@@ -149,6 +157,13 @@ def daterange(start_date, end_date):
 
 
 if __name__ == "__main__":
-    meshes = MeshDataset('models')
-    movie = Movie(meshes)
+    parser = argparse.ArgumentParser(description='Generate movie from sequence of objs')
+    parser.add_argument('--models', '-m', default="models", help="model directory with objs (default: models")
+    parser.add_argument('--output', '-o', default="out.mp4", help="name of output movie file")
+    parser.add_argument('-x', default=-13597460, help="x pos of camera for rendering", type=int)
+    parser.add_argument('-y', default=5812104, help="y pos of camera for rendering", type=int)
+    parser.add_argument('-z', default=4928, help="z pos of camera for rendering", type=int)
+    args = parser.parse_args()
+    meshes = MeshDataset(args.models)
+    movie = Movie(meshes, output_file = args.output, cpos=(args.x, args.y, args.z))
     movie.render()
