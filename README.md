@@ -3,7 +3,7 @@
 ## Introduction
 This repository implements a technique to animate digital elevation models transformed into meshes and linear interpolated in elevation across the time domain. The process is static and uses a mesh without any simplification. As a test bed, the DEMs, as ArcInfo files, created by USGS Messerich et al. 2008 [[1]](#[1]) as part of the 2004-2007 dome building of Mt.St.Helens. This is not an especially novel method, and is referred to as shape keying or morph target animation. There is an implementation in most computer graphics toolsets, such as [Blender](https://docs.blender.org/manual/en/latest/animation/shape_keys/index.html) and [Maya](https://knowledge.autodesk.com/support/maya-lt/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MayaLT/files/Blend-Shape-deformer-Setting-keys-for-blend-shapes-htm.html).
 
-The files were converted to GeoTIFFs and an appropriate projection using GDAL [[8]](#[8]), they were then convereted to dense objs using tin-terrain [[9]](#[9]). Finally, the objs were loaded as keyframes and interpolated between the meshes for rendering in PyVista [[10]](#[10]). The transformations steps are outlined in the [`data`](data/) directory and the interpolation steps in [`python-render`](python-render/).
+The files were converted to GeoTIFFs and an appropriate projection using GDAL [[8]](#[8]), they were then converted to dense objs using tin-terrain [[9]](#[9]). Finally, the objs were loaded as keyframes and interpolated between the meshes for rendering in PyVista [[10]](#[10]). The transformations steps are outlined in the [`data`](data/) directory and the interpolation steps in [`python-render`](python-render/).
 
 As a sanity check at the start of the process hillshades were generated from the GeoTIFFs:
 
